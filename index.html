@@ -348,10 +348,10 @@
                     </div>
                     <div class="stat-item">
                         <span class="stat-number">89%</span>
-                        <div class="stat-text">De las renuncias son por "mal jefe", no por dinero</div>
+                        <div class="stat-text">De las renuncias son por "un mal jefe", no por dinero</div>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number">$15,000</span>
+                        <span class="stat-number">$3,000,000</span>
                         <div class="stat-text">Costo promedio de reemplazar un empleado que renuncia</div>
                     </div>
                 </div>
@@ -415,6 +415,7 @@
                 <button class="cta-button" onclick="startTest()" style="margin-top: 20px;">
                     TOMAR EL TEST AHORA - GRATIS
                 </button>
+              <p style="margin-top: 15px; color: #777; font-size: 0.9em;">
             </div>
         </div>
 
@@ -743,18 +744,21 @@
                 recommendations = [
                     "Mantén estas buenas prácticas",
                     "Busca feedback regular para seguir mejorando",
-                    "Considera mentorear a otros líderes",
+                    "Manten una comunicacion clara y empatica",
+                    "No des por sentado que todos entienden igual",
+                    "confía tareas claves pero da seguimiento y apoyo",
+                    "Considera mentorear a otros líderes del equipo",
                     "Documenta tus mejores prácticas para compartir"
                 ];
             } else if (totalScore <= 30) {
                 level = "🟡 SEÑALES DE ALERTA";
                 levelClass = "nivel-amarillo";
-                description = "Hay algunas áreas donde puedes estar desarrollando patrones problemáticos. Es momento de reflexionar y hacer ajustes antes de que se conviertan en problemas mayores.";
+                description = "Hay algunas áreas donde puedes estar desarrollando patrones problemáticos. Es momento de reflexionar y hacer ajustes antes de que se conviertan en problemas mayores.⚡️ Tu reto En solo 7 días, puedes evitar que un detalle pequeño se convierta en un gran problema";
                 recommendations = [
-                    "Solicita feedback específico de tu equipo",
-                    "Identifica tus 3 comportamientos más problemáticos",
+                    "Solicita feedback específico de tu equipo 👉 Pregunta a 1 o 2 personas de confianza de tu equipo",
+                    "Identifica tus 3 comportamientos más problemáticos 👉 Toma nota de cuándo levantas la voz, cortas ideas o haces comentarios que podrían desmotivar. Ser consciente es el primer paso para cambiar",
                     "Implementa un sistema de autoevaluación semanal",
-                    "Considera coaching o capacitación en liderazgo"
+                    "Considera buscar un coaching o capacitación en liderazgo"
                 ];
             } else if (totalScore <= 45) {
                 level = "🟠 LIDERAZGO PROBLEMÁTICO";
@@ -771,10 +775,12 @@
                 levelClass = "nivel-rojo";
                 description = "Tu estilo de liderazgo está causando daño real a tu equipo y organización. Necesitas intervención profesional inmediata para transformar tu enfoque.";
                 recommendations = [
+                    "Reconoce y acepta el problema 👉 Reflexiona con honestidad: ¿Qué comportamientos tuyos generan miedo, frustración o bloqueo en el equipo",
                     "Intervención profesional URGENTE",
                     "Evaluación psicológica organizacional",
                     "Plan de transformación intensivo",
-                    "Posible reubicación temporal mientras mejoras"
+                    "Posible reubicación temporal mientras mejoras",
+                    "Busca acompañamiento profesional 👉Contacta un coach, mentor o especialista en liderazgo y clima laboral"
                 ];
             }
             
